@@ -1,0 +1,5 @@
+C:\Users\jonasd\Dropbox\nand2tetris\projects\06\Nand2Tetris.Assembler\Nand2Tetris.Assembler\bin\Debug\Nand2Tetris.Assembler.dll
+C:\Users\jonasd\Dropbox\nand2tetris\projects\06\Nand2Tetris.Assembler\Nand2Tetris.Assembler\bin\Debug\Nand2Tetris.Assembler.pdb
+C:\Users\jonasd\Dropbox\nand2tetris\projects\06\Nand2Tetris.Assembler\Nand2Tetris.Assembler\obj\Debug\Nand2Tetris.Assembler.dll
+C:\Users\jonasd\Dropbox\nand2tetris\projects\06\Nand2Tetris.Assembler\Nand2Tetris.Assembler\obj\Debug\Nand2Tetris.Assembler.pdb
+C:\Users\jonasd\Dropbox\nand2tetris\projects\06\Nand2Tetris.Assembler\Nand2Tetris.Assembler\obj\Debug\Nand2Tetris.Assembler.csprojResolveAssemblyReference.cache

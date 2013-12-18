@@ -1,0 +1,7 @@
+C:\Users\jonasd\Dropbox\nand2tetris\projects\06\Nand2Tetris.Assembler\Nand2Tetris.Assembler.Tests\bin\Debug\Nand2Tetris.Assembler.Tests.dll
+C:\Users\jonasd\Dropbox\nand2tetris\projects\06\Nand2Tetris.Assembler\Nand2Tetris.Assembler.Tests\bin\Debug\Nand2Tetris.Assembler.Tests.pdb
+C:\Users\jonasd\Dropbox\nand2tetris\projects\06\Nand2Tetris.Assembler\Nand2Tetris.Assembler.Tests\bin\Debug\Nand2Tetris.Assembler.dll
+C:\Users\jonasd\Dropbox\nand2tetris\projects\06\Nand2Tetris.Assembler\Nand2Tetris.Assembler.Tests\bin\Debug\Nand2Tetris.Assembler.pdb
+C:\Users\jonasd\Dropbox\nand2tetris\projects\06\Nand2Tetris.Assembler\Nand2Tetris.Assembler.Tests\obj\Debug\Nand2Tetris.Assembler.Tests.csprojResolveAssemblyReference.cache
+C:\Users\jonasd\Dropbox\nand2tetris\projects\06\Nand2Tetris.Assembler\Nand2Tetris.Assembler.Tests\obj\Debug\Nand2Tetris.Assembler.Tests.dll
+C:\Users\jonasd\Dropbox\nand2tetris\projects\06\Nand2Tetris.Assembler\Nand2Tetris.Assembler.Tests\obj\Debug\Nand2Tetris.Assembler.Tests.pdb

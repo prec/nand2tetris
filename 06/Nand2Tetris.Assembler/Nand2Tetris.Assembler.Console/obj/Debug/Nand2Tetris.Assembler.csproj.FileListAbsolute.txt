@@ -1,0 +1,1 @@
+C:\Users\jonasd\Dropbox\nand2tetris\projects\06\Nand2Tetris.Assembler\Nand2Tetris.Assembler\bin\Debug\Nand2Tetris.Assembler.exe.config
