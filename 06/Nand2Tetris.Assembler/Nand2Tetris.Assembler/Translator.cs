@@ -9,7 +9,32 @@ namespace Nand2Tetris.Assembler
 {
     public class Translator
     {
-        public List<string> Translate(List<ParsedCommand> parsedCommands )
+        public List<string> Translate(List<ParsedCommand> parsedCommands, Dictionary<string, int> symbolTable)
+        {
+            List<string> codedCommands = new List<string>();
+
+            foreach (var pc in parsedCommands)
+            {
+                string codedCommand = "";
+
+                switch (pc.CommandType)
+                {
+                    case CommandType.A_COMMAND:
+                        if (symbolTable.ContainsKey(pc.Symbol)) pc.Symbol = symbolTable[pc.Symbol].ToString();
+                        codedCommand = GetAddressInstruction(pc);
+                        codedCommands.Add(codedCommand);
+                        break;
+                    case CommandType.C_COMMAND:
+                        codedCommand = string.Format("111{0}{1}{2}", GetComputation(pc), GetDestination(pc),
+                            GetJump(pc));
+                        codedCommands.Add(codedCommand);
+                        break;
+                }
+            }
+
+            return codedCommands;
+        }
+        public List<string> Translate(List<ParsedCommand> parsedCommands)
         {
             List<string> codedCommands = new List<string>();
 
@@ -26,7 +51,6 @@ namespace Nand2Tetris.Assembler
                         codedCommand = string.Format("111{0}{1}{2}", GetComputation(pc), GetDestination(pc),
                             GetJump(pc));
                         break;
-
                 }
 
                 codedCommands.Add(codedCommand);

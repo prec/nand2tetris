@@ -1,10 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using Nand2Tetris.Assembler;
-using System.Threading.Tasks;
 using Nand2Tetris.Assembler.Models;
 
 namespace Nand2Tetris.Assembler.Console
@@ -20,9 +16,11 @@ namespace Nand2Tetris.Assembler.Console
 
             Parser p = new Parser(inputFile);
             Translator t = new Translator();
+            SymbolTableBuilder b = new SymbolTableBuilder();
 
             List<ParsedCommand> parsedCommands = p.Parse();
-            List<string> codedCommands = t.Translate(parsedCommands);
+            Dictionary<string, int> symbolTable = b.Build(parsedCommands);
+            List<string> codedCommands = t.Translate(parsedCommands, symbolTable);
 
             File.WriteAllLines(outputFile, codedCommands.ToArray());
         }

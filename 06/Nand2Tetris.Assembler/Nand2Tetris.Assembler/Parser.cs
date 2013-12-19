@@ -25,7 +25,7 @@ namespace Nand2Tetris.Assembler
         {
             List<ParsedCommand> parsedCommands = new List<ParsedCommand>();
 
-            _commands.RemoveAll(c => string.IsNullOrEmpty(c) || IsComment(c));
+            CleanCommands();
 
             foreach (var command in _commands)
             {
@@ -49,6 +49,14 @@ namespace Nand2Tetris.Assembler
             }
 
             return parsedCommands;
+        }
+
+        private void CleanCommands()
+        {
+            _commands.RemoveAll(c => string.IsNullOrEmpty(c) || IsComment(c));
+
+            _commands = (from c in _commands
+                select c.Contains("//") ? c.Substring(0, c.IndexOf("//")).Trim() : c.Trim()).ToList();
         }
 
         private bool IsComment(string command)

@@ -39,7 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SymbolRepository.cs" />
+    <Compile Include="SymbolTableBuilder.cs" />
     <Compile Include="Translator.cs" />
     <Compile Include="Models\CommandType.cs" />
     <Compile Include="Models\ParsedCommand.cs" />
