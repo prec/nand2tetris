@@ -1,0 +1,5 @@
+C:\Users\jonasd\Dropbox\nand2tetris\projects\07\Nand2Tetris.VmTranslator\Nand2Tetris.VmTranslator\obj\Debug\Nand2Tetris.VmTranslator.csprojResolveAssemblyReference.cache
+C:\Users\jonasd\Dropbox\nand2tetris\projects\07\Nand2Tetris.VmTranslator\Nand2Tetris.VmTranslator\bin\Debug\Nand2Tetris.VmTranslator.dll
+C:\Users\jonasd\Dropbox\nand2tetris\projects\07\Nand2Tetris.VmTranslator\Nand2Tetris.VmTranslator\bin\Debug\Nand2Tetris.VmTranslator.pdb
+C:\Users\jonasd\Dropbox\nand2tetris\projects\07\Nand2Tetris.VmTranslator\Nand2Tetris.VmTranslator\obj\Debug\Nand2Tetris.VmTranslator.dll
+C:\Users\jonasd\Dropbox\nand2tetris\projects\07\Nand2Tetris.VmTranslator\Nand2Tetris.VmTranslator\obj\Debug\Nand2Tetris.VmTranslator.pdb
